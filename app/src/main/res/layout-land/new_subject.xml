@@ -109,7 +109,7 @@
                 android:layout_width="0dp"
                 android:layout_height="71dp"
                 android:layout_weight="0.20"
-                android:background="@drawable/plus1_subject_button"
+                android:background="@drawable/addbtn"
                 android:fontFamily="sans-serif-light"
                 android:onClick="onClickPlus1"
                 android:textSize="40dp"

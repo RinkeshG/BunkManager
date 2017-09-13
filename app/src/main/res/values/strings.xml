@@ -226,5 +226,6 @@
     <string name="menu_main_activity_delete_all">Delete all subjects</string>
     <string name="menu_main_activity_notification_settings">Notification settings</string>
     <string name="menu_main_activity_about">About</string>
+    <string name="comingsoon">Coming Soon</string>
 
 </resources>

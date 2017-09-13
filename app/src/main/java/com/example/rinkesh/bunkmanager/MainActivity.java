@@ -1068,7 +1068,7 @@ public class MainActivity extends Activity {
     @SuppressWarnings("deprecation")
     void enablePlus1Button(int button_id) {
         Button plus1button = (Button) findViewById(button_id);
-        Drawable d = this.getResources().getDrawable(R.drawable.plus1_subject_button);
+        Drawable d = this.getResources().getDrawable(R.drawable.addbtn);
 
         if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.JELLY_BEAN) {
             plus1button.setBackground(d);
@@ -1474,16 +1474,20 @@ public class MainActivity extends Activity {
                 return true;
 */
             case R.id.menu_tell_a_friend:
-                tellAFriendDialog();
+                startActivity(new Intent(this, MainActivity.class));
+                Toast.makeText(this, getResources().getString(R.string.comingsoon), Toast.LENGTH_SHORT).show();
                 return true;
 
             case R.id.menu_notification_settings:
                 startActivity(new Intent(this, MainActivity.class));
+                Toast.makeText(this, getResources().getString(R.string.comingsoon), Toast.LENGTH_SHORT).show();
                 //overridePendingTransition(R.anim.next_screen_enter, R.anim.welcome_screen_exit);
                 return true;
 
             case R.id.menu_about:
-                startActivity(new Intent(this, About.class));
+                startActivity(new Intent(this, MainActivity.class));
+                Toast.makeText(this, getResources().getString(R.string.comingsoon), Toast.LENGTH_SHORT).show();
+
                 //overridePendingTransition(R.anim.next_screen_enter, R.anim.welcome_screen_exit);
                 return true;
 

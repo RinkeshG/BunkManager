@@ -18,8 +18,9 @@
             android:imeOptions="actionNext|flagNoExtractUi"
             android:singleLine="true"
             android:inputType="textCapSentences"
-            android:fontFamily="sans-serif-light"
-            android:hint="@string/subject_name"/>
+            android:fontFamily="serif"
+            android:hint="@string/subject_name"
+        android:textColor="@color/black"/>
 
     <EditText
             android:layout_width="0dp"
@@ -32,8 +33,9 @@
             android:id="@+id/bunk_limit_text"
             android:layout_gravity="center_horizontal|top"
             android:layout_weight="0.36"
-            android:fontFamily="sans-serif-light"
-            android:hint="@string/bunk_limit"/>
+            android:fontFamily="serif"
+            android:hint="@string/bunk_limit"
+        android:textColor="@color/black"/>
 
     <Button
             android:layout_width="0dp"
@@ -46,7 +48,7 @@
             android:singleLine="false"
             style="?android:attr/buttonBarButtonStyle"
             android:fontFamily="sans-serif-light"
-            android:textColor="#898989"
+            android:textColor="@color/black"
             />
 
 </LinearLayout>

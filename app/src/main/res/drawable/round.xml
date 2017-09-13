@@ -10,8 +10,7 @@
         android:topLeftRadius="40dp"
         android:topRightRadius="40dp" />
 
-    <stroke android:width="3px"
-        android:color="@color/summersky" />
+
 
 
 
