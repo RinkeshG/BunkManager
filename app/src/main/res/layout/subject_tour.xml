@@ -28,7 +28,7 @@
                     android:background="@drawable/subject_tour_left"
                     android:text="@string/subject_tour_tip_1"
                     android:id="@+id/subject_tour_tip_1"
-                    android:fontFamily="sans-serif-light"
+                    android:fontFamily="serif"
                     android:textStyle="italic"
                     android:textColor="#fff"
                     android:layout_gravity="center"
