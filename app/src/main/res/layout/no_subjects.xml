@@ -14,7 +14,7 @@
         android:layout_alignParentRight="true"
         android:layout_marginRight="50dp"
         android:layout_marginTop="8dp"
-        android:src="@drawable/arrow" />
+        android:src="@drawable/newarrow" />
 
     <LinearLayout
         android:id="@+id/no_subjects_message"
@@ -22,7 +22,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/psst_arrow"
         android:layout_marginTop="36dp"
-        android:background="@drawable/subject"
+        android:background="@drawable/whiterectangle"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
         android:paddingTop="32dp"
@@ -33,12 +33,12 @@
             android:id="@+id/no_subjects_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:fontFamily="sans-serif-condensed"
+            android:fontFamily="serif"
             android:textStyle="italic"
             android:paddingLeft="20dp"
             android:paddingRight="20dp"
             android:text="@string/no_subjects_title"
-            android:textColor="#33b5e5"
+            android:textColor="#000000"
             android:textSize="30dp"
             />
 
@@ -47,13 +47,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="12dp"
-            android:fontFamily="sans-serif-light"
+            android:fontFamily="serif"
             android:lineSpacingExtra="7dp"
             android:paddingLeft="20dp"
             android:paddingRight="20dp"
             android:paddingBottom="36dp"
             android:text="@string/no_subjects_msg"
-            android:textSize="17dp" />
+            android:textSize="17dp"
+            android:textColor="#009688"/>
 
     </LinearLayout>
 

@@ -22,7 +22,8 @@
                   android:drawableLeft="@drawable/cancel_light"
                   android:drawablePadding="8dp"
                   android:gravity="center_vertical"
-                  android:text="@string/discard_text" />
+                  android:text="@string/discard_text"
+            android:background="@drawable/rectangle"/>
     </FrameLayout>
     <FrameLayout
                  style="?android:actionButtonStyle"
@@ -39,6 +40,7 @@
                   android:drawableLeft="@drawable/tick"
                   android:drawablePadding="8dp"
                   android:gravity="center_vertical"
-                  android:text="@string/save_text" />
+                  android:text="@string/save_text"
+            android:background="@drawable/rectangle"/>
     </FrameLayout>
 </LinearLayout>
