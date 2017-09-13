@@ -22,10 +22,10 @@
             android:layout_height="fill_parent"
             android:layout_marginLeft="4dp"
             android:text="@string/main_activity_subjects"
-            android:textColor="#33b5e5"
-            android:fontFamily="sans-serif-condensed"
+            android:textColor="#283593"
+            android:fontFamily="serif"
             android:textSize="28dp"
-            android:textStyle="italic" />
+            android:textStyle="bold|italic" />
     </LinearLayout>
 
     <LinearLayout

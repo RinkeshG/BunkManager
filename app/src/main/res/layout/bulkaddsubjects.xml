@@ -2,7 +2,7 @@
 
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:orientation="vertical"
-              android:background="#d3d7d9"
+              android:background="#37474f"
               android:layout_width="fill_parent"
               android:layout_height="fill_parent"
               android:padding="16dp">
@@ -18,7 +18,7 @@
             android:layout_width="fill_parent"
             android:layout_height="0dp"
             android:orientation="vertical"
-            android:background="@drawable/subject"
+            android:background="@drawable/whiterectangle"
             >
 
         <TextView
@@ -27,12 +27,12 @@
                 android:text="@string/add_subjects_title"
                 android:id="@+id/add_multiple_subjects_title"
                 android:singleLine="false"
-                android:fontFamily="sans-serif-condensed"
-                android:textSize="26dp"
+                android:fontFamily="serif"
+                android:textSize="22dp"
                 android:layout_marginBottom="8dp"
                 android:paddingLeft="16dp"
                 android:paddingTop="16dp"
-                android:textColor="#33b5e5"
+                android:textColor="#37474f"
                 android:textStyle="italic"/>
 
         <TextView
