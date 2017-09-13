@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.rinkesh.bunkmanager">
+
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="BunK Manager"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".WelcomeScreen"
+            android:launchMode="singleTop">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".Subjects_list"
+            android:label="@string/title_activity_subjects_list"
+            android:parentActivityName=".MainActivity" >
+
+        </activity>
+
+        <activity
+            android:name=".About"
+            android:label="@string/title_activity_about"
+            android:theme="@style/AppTheme"
+            android:parentActivityName="MainActivity" >
+            </activity>
+
+        <activity
+            android:name=".AddSubjects"
+            android:theme="@style/AddSubjectsTheme"
+            android:label="@string/title_activity_setup_bunkometer"
+            android:windowSoftInputMode="stateHidden"
+            android:parentActivityName="MainActivity" >
+
+            </activity>
+
+
+        <activity
+            android:name=".tour"
+            android:label="@string/title_activity_tour"
+            android:theme="@style/TourTheme"
+            />
+
+
+
+
+        <activity android:name=".MainActivity"
+            android:theme="@style/AppBaseTheme"/>
+
+    </application>
+
+</manifest>
