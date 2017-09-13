@@ -572,7 +572,7 @@ public class MainActivity extends Activity {
             //toggling 'touch to respond' text
             ((TextView)findViewById(R.id.touch_to_respond)).setText(getResources().getString(R.string.touch_close));
 
-            //toggling 'liking Bunk-o-meter' text
+            //toggling 'liking BunkManager' text
             playAnim(this, 0, R.id.liking_bunkometer, 200, R.anim.fade_out, 0);
             (findViewById(R.id.liking_bunkometer)).setVisibility(View.GONE);
             (findViewById(R.id.share_bunkometer_request)).setVisibility(View.VISIBLE);

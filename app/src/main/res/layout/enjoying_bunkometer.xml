@@ -5,7 +5,7 @@
             android:layout_height="wrap_content"
             android:clickable="true"
             android:onClick="expandShareConfirmButtons"
-            android:background="@drawable/spread_word"
+            android:background="@drawable/rectangle"
             android:orientation="horizontal"
             android:layout_marginBottom="16dp">
 
@@ -20,7 +20,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/enjoying_bm"
+                android:text="Enjoying Bunk Manager"
                 android:id="@+id/liking_bunkometer"
                 android:paddingLeft="34dp"
                 android:paddingTop="4dp"
@@ -28,9 +28,9 @@
                 android:paddingRight="24dp"
                 android:layout_gravity="left|center_vertical"
                 android:lineSpacingExtra="5dp"
-                android:fontFamily="sans-serif-light"
+                android:fontFamily="serif"
                 android:textSize="16dp"
-                android:textColor="#67696a"
+                android:textColor="@color/white"
                 />
 
             <TextView
@@ -57,11 +57,11 @@
                     android:paddingLeft="34dp"
                     android:paddingBottom="8dp"
                     android:paddingTop="4dp"
-                    android:textStyle="italic"
+                    android:textStyle="bold|italic"
                     android:paddingRight="24dp"
-                    android:fontFamily="sans-serif-light"
+                    android:fontFamily="serif"
                     android:textSize="12dp"
-                    android:textColor="#aaa"
+                    android:textColor="@color/white"
                     android:layout_gravity="center_horizontal|bottom"
                     />
 

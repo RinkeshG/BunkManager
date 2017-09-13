@@ -54,8 +54,7 @@
 					    android:layout_height="wrap_content"
 					    android:paddingTop="6dp"
 					    android:fontFamily="sans-serif-light"
-					    android:text="@string/card_placeholder_message"
-					    android:textSize="14dp"
+					    android:text="...."
                         android:textColor="#ddd"
                              />
 

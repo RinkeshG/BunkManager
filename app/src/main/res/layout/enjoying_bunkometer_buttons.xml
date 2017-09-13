@@ -3,7 +3,8 @@
             android:id="@+id/enjoying_bunkometer_buttons_container"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#220a4563"
+            android:background="@drawable/rectangle"
+
             >
 
         <Button
@@ -14,7 +15,7 @@
                 android:id="@+id/spread_word_no_button"
                 android:onClick="shareBunkometerOnClick"
                 android:layout_weight="1"
-                android:textColor="#67696a"
+                android:textColor="@color/white"
                 android:textSize="12dp"/>
 
         <TextView
@@ -26,7 +27,7 @@
         <Button
                 android:layout_width="0dp"
                 android:layout_height="50dp"
-                android:textColor="#67696a"
+                android:textColor="@color/white"
                 android:onClick="shareBunkometerOnClick"
                 android:text="@string/later"
                 android:id="@+id/spread_word_later_button"
@@ -43,7 +44,7 @@
         <Button
                 android:layout_width="0dp"
                 android:layout_height="50dp"
-                android:textColor="#67696a"
+                android:textColor="@color/white"
                 android:onClick="shareBunkometerOnClick"
                 android:text="@string/sure"
                 android:id="@+id/spread_word_sure_button"
